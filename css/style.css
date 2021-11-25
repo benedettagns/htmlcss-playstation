@@ -70,10 +70,17 @@ header img {
     align-items: center;
 }
 
+.row-text {
+    padding-left: 80px;
+}
 .row-img {
     padding-left: 200px;
 }
 
 .row-img img{
     width: 600px;
+}
+
+.col img {
+    width: 150px;
 }
