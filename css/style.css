@@ -13,16 +13,9 @@ header img {
     width: 80px;
     margin-right: 20px;
 }
-
-.nav-elements {
-    display: flex;
-    align-items: center;
+.item-end {
+    justify-content: flex-end;
 }
-
-.nav-elements div {
-    margin-right: 15px;
-}
-
 .jumbotron {
     position: relative;
     background: url(../img\ 3/jumbo-bg.png) 50% 50%;
