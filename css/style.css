@@ -54,5 +54,26 @@ header img {
     margin-left: 50px;
 }
 
+.text-center {
+    margin-top: 100px;
+}
 
+.text-center p {
+    color: blue;
+}
 
+.text-center h5 {
+    color: grey;
+}
+
+.row {
+    align-items: center;
+}
+
+.row-img {
+    padding-left: 200px;
+}
+
+.row-img img{
+    width: 600px;
+}
