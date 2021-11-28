@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
@@ -12,12 +13,13 @@
 </head>
 
 <body>
-
+    <!---barra nera con logo -->
     <header class="container-fluid">
         <img src="img 3/sony_logo.svg" alt="">
     </header>
 
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <!--nav bar -->
+    <nav class=" playstation-nav navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
             <div><img src="img 3/play_logo.svg" alt=""></div>
             <div class="collapse navbar-collapse">
@@ -51,22 +53,24 @@
                         <a class="nav-link" href="#">Button</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Cerca</a>
+                        <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
                     </li>
                 </ul>
             </div>   
         </div>    
     </nav>
 
-    <div class="jumbotron"> 
+    <!--terza parte- jumbotron (aggiungi button)-->
+    <div class="jumbotron jumbo-bg-hero"> 
         <div class="jumbo-content">
             <img src="img 3/returnal-hero-banner-logo.png" alt="">
-            <h2>Rompi il cerchio</h2>
+            <h1>Rompi il cerchio</h1>
             <p>Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.</p>
             <div><!--button--></div>
         </div>
     </div>
 
+    <!--icone dei giochi (controlla altri screen)-->
     <div class="icons">
         <img src="img 3/returnal-listing-thumb-01-ps5.jpg" alt="">
         <img src="img 3/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
@@ -76,31 +80,134 @@
         <img src="img 3/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
     </div>
 
-    <div class="text-center">
+    <!--testo centrale play-->
+    <div class="center-text text-center">
         <p>PLAY HAS NO LIMITS</p>
         <h2>Ecco la PlayStation 5</h2>
         <h5>Tuffati in nuove possibilità di gioco completamente inaspettate</h5>
     </div>
 
-    <div class="row">
-        <div class="col-4 row-text">
+    <!--foto play nuova-->
+    <div class="new-play">
+        <div>
             <h2>Console PlayStation5</h2>
             <p>Sperimenta la nuova generazione di incredibibli giochi PlayStation.</p>
             <div><!--button--></div>
         </div>
 
-        <div class="col-8 row-img">
+        <div class="img-new-p">
             <img src="img 3/playstation-5-thumb.png" alt="">
-        </div>
-
-        <div class="col">
-            <img src="img 3/playstation-5-thumb.png" alt="">
-            <img src="img 3/joypad-thumb.png" alt="">
-            <img src="img 3/headset-thumb.png" alt="">
-            <img src="img 3/remote-thumb.png" alt="">
-            <img src="img 3/camera-thumb.jpg" alt="">
         </div>
     </div>
+
+    <!--componenti della play-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col text-center">
+                <img src="img 3/playstation-5-thumb.png" alt="">
+                <p class="descrizione">Console PS5</p>
+            </div>
+            <div class="col text-center">
+                <img src="img 3/joypad-thumb.png" alt="">
+                <p class="descrizione">Controller Wireless DualSense</p>
+            </div>
+            <div class="col text-center">
+                <img src="img 3/headset-thumb.png" alt="">
+                <p class="descrizione">Cuffie wireless con microfono PULSE 3</p>
+            </div>
+            <div class="col text-center">
+                <img src="img 3/remote-thumb.png" alt="">
+                <p class="descrizione">Telecomando Media</p>
+            </div>
+            <div class="col text-center">
+                <img src="img 3/camera-thumb.jpg" alt="">
+                <p class="descrizione">Telecamera HD</p>
+            </div>    
+        </div>
+    </div>
+
+    <!--jumbotron 2 "it takes"-->
+    <div class="jumbotron jumbo-bg-takes"> 
+        <div class="jumbo-content">
+            <img src="img 3/it-takes-two-logo.png" alt="">
+            <h1>Un'avventura cooperativa selvaggia ti attende</h1>
+            <p>Trova un amico e partite insieme per l'avventura più folle delle vostre vite in It Takes Two, un gioco d'avventura cooperativa a piattaforme che stravolge il suo genere.</p>
+            <div><!--button--></div>
+        </div>
+    </div>
+
+    <!--nuove uscite-->
+    <div class="coming-soon container-fluid">
+        <div class="cs-title">
+            <h1>Nuove uscite</h1>
+            <h3>Giochi incredibili per PS4 e PS5 disponibili ora</h3>
+        </div>
+        <div class="row row-cols-3 row-cols-lg-6">
+            <div class="col">
+                <img src="img 3/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+                <p>Tony Hawk's Pro Skater 1+2</p>
+            </div>
+
+            <div class="col">
+                <img src="img 3/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+                <p>Crash Bandicoot 4: It's About Time</p>
+            </div>
+
+            <div class="col">
+                <img src="img 3/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+                <p>Tony Hawk's Pro Skater 1+2</p>
+            </div>
+
+            <div class="col">
+                <img src="img 3/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+                <p>Crash Bandicoot 4: It's About Time</p>
+            </div>
+
+            <div class="col">
+                <img src="img 3/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+                <p>Tony Hawk's Pro Skater 1+2</p>
+            </div>
+
+            <div class="col">
+                <img src="img 3/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+                <p>Crash Bandicoot 4: It's About Time</p>
+            </div>
+
+            <div class="col">
+                <img src="img 3/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+                <p>Tony Hawk's Pro Skater 1+2</p>
+            </div>
+
+            <div class="col">
+                <img src="img 3/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+                <p>Crash Bandicoot 4: It's About Time</p>
+            </div>
+
+            <div class="col">
+                <img src="img 3/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+                <p>Tony Hawk's Pro Skater 1+2</p>
+            </div>
+
+            <div class="col">
+                <img src="img 3/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+                <p>Crash Bandicoot 4: It's About Time</p>
+            </div>
+
+            <div class="col">
+                <img src="img 3/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+                <p>Tony Hawk's Pro Skater 1+2</p>
+            </div>
+
+            <div class="col">
+                <img src="img 3/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+                <p>Crash Bandicoot 4: It's About Time</p>
+            </div>
+
+        </div>
+        
+    </div>
+        
+    
 
 
 
