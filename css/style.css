@@ -111,6 +111,10 @@ header img {
     padding-top: 20px;
 }
 
+.bordo {
+    border-bottom: 2px solid blue;
+}
+
 /*jumbotron 2 "it takes"*/
 .jumbo-bg-takes {
     background: url(../img\ 3/it-takes-two-hero-banner-desktop.jpg);
