@@ -84,15 +84,7 @@ header img {
 }
 
 /*foto play nuova- testo + img play*/
-.new-play {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
 
-.img-new-p img {
-    width: 500px;
-}
 
 /*componenti della play*/
 .col img {
