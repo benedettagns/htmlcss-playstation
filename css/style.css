@@ -64,11 +64,6 @@ header img {
 
 
 /*icone giochi*/
-.icons {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
 
 .icons img {
     width: 150px;
