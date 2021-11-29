@@ -119,3 +119,83 @@ header img {
 .coming-soon p {
     color: white;
 }
+
+/*playstation 4*/
+.grey-cent-text {
+    margin-top: 50px;
+}
+
+.grey-cent-text h6 {
+    color:grey;
+}
+
+.grey-cent-text h2 {
+    padding-bottom: 20px;
+}
+
+.ps4-padding {
+    padding: 50px 80px 0 80px;
+}
+
+.ps4-padding img {
+    width: 250px;
+}
+
+/*playstation plus*/
+.bg-plus {
+    background-color: grey;
+}
+
+.img-plus img {
+    width: 500px;
+}
+
+.logo-plus img{
+    width: 300px;
+    padding-bottom: 40px;
+}
+
+/*sconti*/
+.sales img {
+    width: 300px;
+}
+
+/*playstation now*/
+.bg-now {
+    background-color: rgb(0, 0, 59);
+    margin-top: 50px;
+}
+
+.bg-now p {
+    color: white;
+}
+
+/*social media*/
+.social-text {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*footer*/
+footer {
+    background-color: blue;
+    margin-top: 50px;
+    height: 600px;
+}
+
+.foot-row img {
+    margin-top: 50px ;
+    width: 100px;
+}
+
+.copyw {
+    margin-top: 70px;
+    width: 500px;
+    color: white;
+    font-size: 12px;
+}
+
+.copyw img {
+    width: 150px;
+    margin-bottom: 20px;
+}
