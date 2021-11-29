@@ -65,7 +65,7 @@ header img {
 
 /*icone giochi*/
 .icons img {
-    width: 150px;
+    width: 100%;
     border-radius: 20px;
     margin-top: 40px;
 }
@@ -84,11 +84,13 @@ header img {
 }
 
 /*foto play nuova- testo + img play*/
-
+.new-play img {
+    width: 100%;
+}
 
 /*componenti della play*/
 .col img {
-    width: 150px;
+    width: 100%;
 }
 
 .descrizione {
@@ -97,6 +99,7 @@ header img {
 
 .bordo {
     border-bottom: 2px solid blue;
+    margin-bottom: 20px;
 }
 
 /*jumbotron 2 "it takes"*/
